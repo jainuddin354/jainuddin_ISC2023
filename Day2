@@ -1,0 +1,26 @@
+package day_2;
+public class Main {
+    public static void main(String[] args) {
+        
+     // belajar tipe data primitif day 2
+        int mode1 = 23;
+        short mode2 = 75;
+        long mode3 = 23;
+        byte mode4= 73;
+        float mode5 = 5826295519f;
+        double mode6= 562.62;
+        char kelas = 'C';
+        boolean mengulang_tahun_depan = false;
+        
+        
+        System.out.println(mode1);
+        System.out.println(mode2);
+        System.out.println(mode3);
+        System.out.println(mode4);
+        System.out.println(mode5);
+        System.out.println(mode6);
+        System.out.println(kelas);
+        System.out.println(mengulang_tahun_depan);
+    }
+    
+}
