@@ -1,0 +1,43 @@
+
+public class Main {
+    
+    public static void main(String[] args) {
+        String nama, alamat, status;
+        nama ="jainuddin";
+        alamat ="pasangkayu";
+        status = "jomblo";
+        
+        System.out.println("nama :" + nama );
+        System.out.println("alamat :" + alamat);
+        System.out.println("status :" + status);
+        
+        Byte A = 23;
+        Short B = 25;
+        Integer C = 54;
+        System.out.println("A :"+ A);
+        System.out.println("B :" + B);
+        System.out.println("C :" + B);
+        
+        long gg = 556;
+        Long jenis = gg;
+        System.out.println("jenis:" + jenis);
+        
+        Float g = 123456.789f;
+        Double c = 123.12;
+        System.out.println("g :" + g );
+        System.out.println("c :" + c);
+         
+        Character kelas = 'c';
+        Boolean aku_bohong = true;
+        
+        System.out.println("kelas :" + kelas);
+        System.out.println("aku_bohong :" + aku_bohong);
+        
+        
+        
+        
+        
+
+    }
+    
+}
