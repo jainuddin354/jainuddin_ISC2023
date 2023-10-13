@@ -1,0 +1,15 @@
+package day5;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        final int berat_bumi = 20;
+         //  berat_bumi = 30; // 
+        //karna ada fariabel konstan
+        // (final) membuat variabel berukutnya tdak terbaca
+        
+        System.out.println("berat bumi :" + berat_bumi );
+    }
+    
+}
