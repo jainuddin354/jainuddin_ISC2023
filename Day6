@@ -1,0 +1,14 @@
+package biodatanur;
+public class Main {
+    public static void main(String[] args) {
+       // memghitung jarak rumah ke kelas
+            
+        final int  dari_rumah_ke_kampus = 12;
+        final int   dari_parkiran_ke_kelas = 10;
+         
+        
+        int dari_rumah_ke_kampus_dari_parkiran_ke_kelas = 12 + 10;
+        System.out.println("waktu nya yaitu :" + dari_rumah_ke_kampus +  dari_parkiran_ke_kelas);
+    }
+    
+}
