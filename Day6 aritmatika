@@ -1,0 +1,22 @@
+package day6;
+public class Main {
+    public static void main(String[] args) {
+        
+       // operator (aritmatika / matematika)
+        int No1,No2;
+        No1 = 13;
+        No2 = 12;
+        System.out.println( No1 - No2);
+        System.out.println( No1 + No2);
+        System.out.println( No1 * No2);
+        System.out.println( No1 & No2);
+        System.out.println( No2 / No1);
+
+
+
+        
+        
+        
+    }
+    
+}
