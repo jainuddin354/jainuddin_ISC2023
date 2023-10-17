@@ -1,0 +1,30 @@
+package projet;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        // Perbandingan 
+        double angka1 = 5;
+        short angka2 = 10;
+        
+        boolean hasil1 = (angka1 == angka2);
+        boolean hasil2 = (angka1 != angka2);
+        boolean hasil3 = (angka1 < angka2);
+        boolean hasil4 = (angka1 > angka2); 
+        boolean hasil5 = (angka1 <= angka2);
+        boolean hasil6 = (angka1 >= angka2);
+
+        //  hasil perbandingan
+        System.out.println("perbandingan pertama: " + hasil1);
+        System.out.println("perbandingan kedua: " + hasil2);
+        System.out.println("perbandingan ketiga: " + hasil3);
+        System.out.println("perbandingan keempat: " + hasil4);
+        System.out.println("perbandingan kelima: " + hasil5);
+        System.out.println("perbandingan keenam: " + hasil6);
+
+
+        
+    }
+        
+    
+}
