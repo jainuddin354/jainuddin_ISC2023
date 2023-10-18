@@ -1,0 +1,22 @@
+package projet;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        boolean ganteng = false;   // Not!
+        System.out.println("sya sangat ganteng = " + ! ganteng);
+        
+        boolean uang= false;   // And &&
+        boolean makan = true;
+        System.out.print("jika hanya di kasih makan maka akan= ");
+        System.out.println(uang && makan);
+        
+        boolean jambu = true;    // Or ||
+        boolean mangga = false;
+        System.out.print("jika sudah di berikan 1 buah maka akan= ");
+        System.out.println(jambu || mangga );
+        
+    }
+        
+    
+}
