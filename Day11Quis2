@@ -1,0 +1,22 @@
+package projet;
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner data = new Scanner(System.in);
+        System.out.print(" Nilai m:"  );
+        int m = data.nextInt();
+        
+        System.out.print(" Nilai n: " );
+        int n = data .nextInt();
+        
+
+        if (m < n){
+         for (int a = m + 2; a < n; a++){
+             System.out.print(a);
+             System.out.print(",");  
+           }  
+         }   
+        }
+     }
