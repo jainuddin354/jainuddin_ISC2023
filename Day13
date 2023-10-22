@@ -1,0 +1,39 @@
+package jwhahah;
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner masukan = new Scanner(System.in);
+        System.out.print("=========nilai DDP anda=========");
+        double a, b, c, d, e, f, g;
+        System.out.print("bertanya \t: ");
+        a = masukan.nextDouble();
+        
+        System.out.print("menjawab pertayaan \t: ");
+        b = masukan.nextDouble();
+        
+        System.out.print("kehadiran anda\t\t: ");
+        c = masukan.nextDouble();
+        
+        System.out.print("sikap anda\t\t: ");
+        d = masukan.nextDouble();
+        
+        System.out.print("Nilai uas anda \t\t: ");
+        e = masukan.nextDouble();
+        f = a+b+c+d+e;
+        g = f / 5;
+        System.out.println("================");
+        System.out.println("Nilai anda \t: "+g);
+        if(g > f){
+            System.out.println("pasti nyontek yah kok lulus");
+        }else{
+            System.out.println("Wah.. nampaknya ada calon mapala");
+        }
+        
+    
+    }
+    
+
+    }
+    
