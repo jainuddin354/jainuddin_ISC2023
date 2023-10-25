@@ -1,0 +1,41 @@
+package jwhahah;
+import java.util.Scanner;
+public class Main {
+    public static void main(String...acok) {
+Scanner iyye = new Scanner(System.in);
+       /// menjual tanah
+        int harga,lebar,panjang,hargapermeter,luas;
+        System.out.println("berapa luas tanah \t : ");
+        panjang= iyye.nextInt();
+        
+        System.out.println("berapa lebar tanah \t : ");
+        lebar = iyye.nextInt();
+        
+        hargapermeter=300000;
+        luas = lebar * panjang;
+        System.out.println("luas tanah yang akan di jual \t :"+  luas );
+        
+        
+       harga = luas * hargapermeter;
+        System.out.println("harga jual nya yaitu \t :" + harga + "k");
+        
+    
+        if(harga<50000000){
+            System.out.print("\nharga tanah anda di kenakan pajak sebesar 1% ");
+            System.out.print("\njadi harga bersi penjualan tanah nya adalah\n:Rp " + (harga-(harga*0.01)));
+            
+        }else if (harga>=50000000 && harga<=100000000){
+            System.out.print("\nharga tanah anda dikenakan pajak sebesar 3% ");
+            System.out.print("\njadi harga bersih penjualan tanah anda adalah\n:Rp " + (harga-(harga*0.03)));
+            
+        }else if (harga >100000000){
+            System.out.print("\nharga tanah anda dikenakan pajak sebesar 5% ");
+        System.out.print("\njadi hasil bersih penjualan tanah anda adalah\n:Rp " + (harga-(harga*0.05)));
+        }
+        
+    }    
+}
+    
+
+    
+
