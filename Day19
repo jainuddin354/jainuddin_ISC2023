@@ -1,0 +1,21 @@
+    package jwhahah;
+import java.util.Scanner;
+public class main {
+    public static void main(String...acok) {
+       String user ="jay";
+        String sandi= "izi";
+  Scanner scanner = new Scanner(System.in);
+        System.out.print("Masukkan username: ");
+        String inputuser= scanner.nextLine();
+        System.out.print("Masukkan sandi: ");
+        String inputsandi = scanner.nextLine();
+        
+                if (inputuser.equals(user) && inputsandi.equals(sandi)) {
+            System.out.println("Selamat datang, jay!");
+        } else {
+            System.out.println("Akses ditolak.");
+        }
+        
+    }   
+}
+
