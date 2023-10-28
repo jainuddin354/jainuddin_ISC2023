@@ -1,0 +1,24 @@
+package aril;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner jay = new Scanner(System.in);
+        System.out.print("masukkan umur anda \t :");
+        int usia = 100;
+        usia = jay.nextInt();
+        if (usia >= 40) {
+            System.out.println("Anda sudah tua.");
+        } else if (usia >= 17) {
+            System.out.println("Anda masih muda.");
+        } else if (usia >= 2) {
+            System.out.println("Anda masih anak-anak.");
+          }else {
+              System.out.println("anda masih balita");
+        
+        
+        
+        }    
+         
+    }
+    
+}
