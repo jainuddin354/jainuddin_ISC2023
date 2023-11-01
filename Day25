@@ -1,0 +1,21 @@
+package jwhahah;
+import java.util.Scanner;
+public class Main {
+    public static void main(String...acok) {
+Scanner iyye = new Scanner(System.in);
+        System.out.print("masukkan nilai : ");
+        int nilai  = 0;
+        nilai = iyye.nextInt();
+        long hasil = nilai % 2;
+         String kondisi = hasil == 0? "genap": "ganjil";
+        System.out.print(kondisi);
+        
+        
+        
+    }    
+}
+    
+    
+
+    
+    
