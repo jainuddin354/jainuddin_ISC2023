@@ -1,0 +1,51 @@
+    package jwhahah;
+import java.util.Scanner;
+public class main {
+    public static void main(String...acok) {
+  Scanner jay = new Scanner(System.in);
+        int bulan =0;
+        System.out.print("bulan berapa : ");
+       bulan = jay.nextInt();
+        switch (bulan) {
+            case 1:
+            System.out.print("Januari");
+            break;
+            case 2:
+            System.out.print("February");
+            break;
+            case 3:
+            System.out.print("Maret");
+            break;
+            case 4:
+            System.out.print("April");
+            break;
+            case 5:
+            System.out.print("Mey");
+            break;
+            case 6:
+            System.out.print("Juni");
+            break;
+            case 7:
+            System.out.print("Juli");
+            break;
+            case 8:
+            System.out.print("Agustus");
+            break;
+            case 9:
+            System.out.print("september");
+            break;
+            case 10:
+            System.out.print("Oktober");
+            break;
+            case 11:
+            System.out.print("November");
+            break;
+            case 12:
+            System.out.print("Desember");
+            break;
+
+            
+        }
+    }   
+}
+
