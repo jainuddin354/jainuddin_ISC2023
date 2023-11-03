@@ -1,0 +1,22 @@
+package jwhahah;
+import java.util.Scanner;
+public class Main {
+    public static void main(String...acok) {
+        System.out.println("**persyaratan masuk ISC**");
+        Scanner jey = new Scanner(System.in);
+        System.out.print("udah ngoding berapa hari : ");
+        int angka = jey.nextInt();
+        
+        if(  angka > 100) {
+            System.out.print(" > selamat anda lolos");
+        }else {
+            System.out.print(" > tidak lolos \n silahkan mengulang tahun dpn");
+        }
+        
+    }    
+}
+    
+    
+
+    
+    
