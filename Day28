@@ -1,0 +1,11 @@
+package aril;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args){
+      Scanner jey = new Scanner(System.in);
+        int angka1 = jey.nextInt();
+        int angka2 = jey.nextInt();
+        System.out.print(angka2+""+angka1);
+        
+    }
+} 
