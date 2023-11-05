@@ -11,7 +11,7 @@ public class Main {
         
         if(suara >= 70){
           System.out.print("terpilih");
-        }else(suara >= 40){
+        }else if(suara >= 40){
             System.out.print("kemungkinan kecil");
         }else{
             System.out.print("tidak ada harapan");
