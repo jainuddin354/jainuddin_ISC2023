@@ -1,0 +1,22 @@
+package aril;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args){
+               Scanner jaey = new Scanner(System.in);
+        System.out.println("{Pemilihan presiden RI 2024}");
+        System.out.println("==Prabiwo subianto dan gibran==");
+        System.out.print("berapa % suara :");
+        int suara = 0;
+       suara = jaey.nextInt();
+        
+        if(suara >= 70){
+          System.out.print("terpilih");
+        }else(suara >= 40){
+            System.out.print("kemungkinan kecil");
+        }else{
+            System.out.print("tidak ada harapan");
+                
+            }
+            
+    }
+} 
