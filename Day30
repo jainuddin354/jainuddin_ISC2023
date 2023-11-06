@@ -1,0 +1,21 @@
+package jet;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner input  = new Scanner(System.in);
+        System.out.print("Nilai N :");
+        double N = input.nextDouble();
+        System.out.print("Nilin M :");
+        double M = input.nextDouble();
+        
+        int floorN = (int) Math.floor(N);
+        int ceilN = (int) Math.ceil(M);
+        System.out.println(N + " " + M);
+
+        input.close();
+    
+    
+
+    }
+    
+}
