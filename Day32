@@ -1,0 +1,17 @@
+package jay;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+       Scanner input = new Scanner(System.in);
+        byte usia = 12;
+        System.out.println("==Batas ipk dapat bidik misi==");
+        System.out.print("masukkan ipk anda :");
+        usia=input.nextByte();
+        if ( usia > 3){
+            System.out.println("Selamat..!Anda lolos bidik misi");
+        }else {
+            System.out.print("belajar lagi");
+        }     
+    }
+    
+}
