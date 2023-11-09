@@ -1,0 +1,12 @@
+package jay;
+public class Main {
+    public static void main(String[] args) {
+        boolean kondisi1,kondisi2;
+        kondisi1= true;
+        kondisi2 = false;
+        boolean hasilAnd = kondisi1 && kondisi2; 
+    System.out.println(hasilAnd);
+
+    }
+    
+}
