@@ -1,0 +1,25 @@
+package jay;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner n = new Scanner (System.in);
+            int awal , akhir;
+            System.out.println("\t ANGKA GANJIL \t");
+            System.out.print(" awal  : ");
+            awal = n.nextInt();
+            System.out.print(" akhir : ");
+            akhir = n.nextInt();
+           // int b = awal;
+            while (awal <= akhir){
+                int hasil = awal % 2;
+               if (hasil == 1){
+                    System.out.print(awal+" ");
+                }
+                    awal++;
+                    
+                }
+            System.out.println(" ");
+        
+            }
+    }
+    
