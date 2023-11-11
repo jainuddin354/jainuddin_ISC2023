@@ -1,0 +1,10 @@
+package jay;
+public class Main {
+    public static void main(String[] args) {
+        boolean pilihan = true; // false
+        System.out.println("sya bohong = " +  ! pilihan);
+        
+        
+            }
+    }
+    
