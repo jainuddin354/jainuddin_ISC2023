@@ -1,0 +1,9 @@
+package jay;
+public class Main {
+    public static void main(String[] args) {
+        boolean n= true;
+        boolean k= true;
+        System.err.print(n && k);
+            }
+    }
+
