@@ -1,0 +1,14 @@
+package jay;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner ner = new Scanner(System.in);
+   int [] $ = {5,4,3,2,1};
+        int [] ¥={2,3,4,1,2,};  
+        System.out.print($[2]+¥[1]);
+    }
+}
+
+
+
+       
