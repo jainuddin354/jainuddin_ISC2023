@@ -1,0 +1,16 @@
+package ky;
+public class Main {
+    public static void main(String[] args) {
+        int b = 12;
+        for ( int a = 0 ; a < b ; a++){
+            System.out.print(a + " ");
+            
+        }
+        
+    }
+    
+}
+
+    
+
+
