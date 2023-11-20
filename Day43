@@ -1,0 +1,18 @@
+package ky;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner jy = new Scanner(System.in);
+        System.out.print("masukkan jumlah :");
+        int b = jy.nextInt();
+        for (int c = 0 ;c < b ;c++){
+          int t = c;
+            t = jy.nextInt();
+            
+            
+           
+        }
+    }
+}   
+
+
