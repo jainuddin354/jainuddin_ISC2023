@@ -1,0 +1,24 @@
+package nanana;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner jy = new Scanner(System.in);
+        int tahun;
+        double modal,investasi=0;
+        
+        System.out.print("Masukan modal\t: ");
+        modal = jy.nextDouble();
+        System.out.print("Tahun\t\t: ");
+        tahun = jy.nextInt();
+        System.out.print("\n");
+        for (int i = 1; i <= tahun; i++) {
+            investasi = 0.05 * modal;
+            modal +=investasi;
+            System.out.println("Tahun ke "+ i + "\t: "+modal);
+        }System.out.println("\n");
+        System.out.println(" hasil selama "+ tahun+" adalah :" + modal);
+    }
+}
+    
+    
+
