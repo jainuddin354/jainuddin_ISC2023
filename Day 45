@@ -1,0 +1,9 @@
+package jwiw;
+public class Main {
+    public static void main(String[] args) {
+        int b = 0;
+        for (int a = 100;a > b ;a-=2){
+            System.out.print(a + " ");
+        }
+    }
+}
