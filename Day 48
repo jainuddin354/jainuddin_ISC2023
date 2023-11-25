@@ -1,0 +1,9 @@
+package jwiw;
+public class Main {
+    public static void main(String[] args) {
+        int []a ={11,12,13,14,15,16,17,18,19};
+        for(int b = 0;b < a[1]; b++){
+            System.out.print(b + ",");
+        }
+    }
+}
