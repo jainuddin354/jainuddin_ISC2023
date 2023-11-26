@@ -1,0 +1,16 @@
+package jwiw;
+import java.util.Scanner;
+ public class Main {
+    public static void main(String[] args) {
+        Scanner ner = new Scanner(System.in);
+        System.out.print("batas angka :");
+        int c = ner.nextInt();
+        int []a ={c};
+        System.out.format("awal angka :");
+        int d = ner.nextInt();
+        int []b ={d};
+        for(int z = b[0];z < a[0]; z++){
+            System.out.print(z+ ",");
+        }  
+    }  
+}
