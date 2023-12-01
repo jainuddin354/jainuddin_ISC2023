@@ -1,0 +1,16 @@
+package hahahah;
+import java.util.Arrays;
+import java.util.Collections;
+public class Main {
+    public static void main(String[] args) {
+        Integer g[]= {1, 2, 3, 4,1,5,5};
+        int mx =Collections.max(Arrays.asList(g));
+        int mn =Collections.min(Arrays.asList(g));
+        System.out.print("nilai :");
+        for(int a = 0;a<g.length;a++ ){
+            System.out.print(g[a]+ " ");
+        }System.out.println("  ");
+         System.out.println("max:" +mx);
+        System.out.println("min:" +mn);
+    }
+}
