@@ -1,0 +1,15 @@
+package hahahah;
+//import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        //Scanner jy =new  Scanner (System.in);
+       String a[][] ={
+           {"tahu"},
+           {"tempe"},
+           {"jambu"},
+           {"mangga"},
+           {"kita"}
+       };
+        System.out.print(a[1][0]);
+    }
+}
