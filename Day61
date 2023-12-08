@@ -1,0 +1,14 @@
+package hahahah;
+public class Main {
+    public static void main(String[] args) {
+        String a[][]={
+           {"haha","rasakan" ,"lah"},
+            {"gdery","kutukan","Mantan"}
+        };
+        for(int i = 0; i < a.length ;i++){
+            System.out.println(a[i][0]+" ");
+            System.out.println(a[i][1]+" ");
+            System.out.println(a[i][2]+" ");
+        } 
+    }  
+}     
