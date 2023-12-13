@@ -1,0 +1,21 @@
+package nanana;
+public class Main {
+    public static void keti_angkatan_2023 (){
+        System.out.println("------prosedur------");
+        System.out.println("kelas A : Nurmadinah ");
+        System.out.println("kelas B : Ihksan ");
+        System.out.println("kelas C : jainuddin ");
+        System.out.println("kelas D : Gedry ");
+        System.out.println("kelas E : RendiAwan ");
+        System.out.println("--------fungsi-------");
+    }
+    public static int anggota (){
+        int a = 70;
+        int b = 1;
+        return a + b;
+    }
+    public static void main(String[] args) {
+        keti_angkatan_2023();
+        System.out.println(anggota());
+    }   
+}
