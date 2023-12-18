@@ -1,0 +1,23 @@
+package jay;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner  jy= new Scanner(System.in);
+        int batas = jy .nextInt();
+
+        System.out.println("Bilangan Genap:");
+        for (int i = 1; i <= batas; i++) {
+            if (i % 2 == 0) {
+                System.out.print(i + " ");
+            }
+        }
+
+        System.out.println("\nBilangan Ganjil:");
+        for (int i = 1; i <= batas; i++) {
+            if (i % 2 != 0) {
+                System.out.print(i + " ");
+            }
+        }
+    }
+}
+        
