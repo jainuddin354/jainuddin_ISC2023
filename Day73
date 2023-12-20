@@ -1,0 +1,25 @@
+package ufoy;
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        double a, b, hasil=0;
+        System.out.print("Masukkan bil1 : ");
+        a = input.nextDouble();
+        System.out.print("Masukkan bil1 : ");
+        b = input.nextDouble(); 
+        System.out.print("Operator : ");
+        int pilih = input.nextInt();
+        switch(pilih){
+            case 1 : hasil = a + b;break;
+            case 2 : hasil = a - b;break;
+            case 3 : hasil = a * b;break;
+            case 4 : hasil = a / b;break;
+            case 5 : hasil = a % b;break;
+            
+        }
+        System.out.println("Hasil = "+hasil);
+    }
+}
+
