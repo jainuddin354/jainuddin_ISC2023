@@ -1,0 +1,21 @@
+package ufoy;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args){
+       Scanner input = new Scanner (System.in);
+        
+        int  gajilembur = 55000;
+        int hasil = 0;
+        
+        System.out.print("Masukan gaji anda : ");
+        int gaji = input.nextInt();
+        
+        System.out.print("Masukan lama lembur : ");
+        int  lembur = input.nextInt();
+        
+        hasil = (lembur *gajilembur)+gaji;
+        System.out.print("hasil : "+hasil);
+        
+    }
+}
+    
