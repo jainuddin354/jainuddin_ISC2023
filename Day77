@@ -1,0 +1,10 @@
+package ghhv;
+public class hhh {
+    public static void main (String[] args){
+        String hewan[]={"ayam","babi","monyet","manu","posa","pinaka","rusa","beke","cacing","burung"};
+        for (int i = 0;i <= hewan.length;i++){
+            hewan[9] = "cicak";
+            System.out.println(hewan[i]);
+        }
+    }
+}
