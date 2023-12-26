@@ -1,0 +1,20 @@
+package ghhv;
+import java.util.Scanner;
+public class hhh {
+    public static void main (String[] args){
+        Scanner jy = new Scanner(System.in);
+        System.out.print(" golongan 1 \n golongan 2 \n golongan 3");
+        System.out.println(" ");
+        System.out.print("Masukkan golongan :");
+        int lamakerja = jy.nextInt();
+        
+        switch (lamakerja) {
+            case 1: System.out.print("golongan 1 \n 4.000.000");
+            break;
+            case 2: System.out.print("golongan 2 \n 7.000.000");
+            break;
+            case 3: System.out.print("golongan 3 \n 10.000.000");
+            break;
+        }
+    }
+}
