@@ -1,0 +1,12 @@
+package ghhv;
+public class hhh {
+    public static void main (String[] args){
+        String[][][] a = {{{"jay", "udin"}, {"ged", "riy"}},
+                    {{"kho", "lil"}, {"riz", "kiy"}},
+                    {{"riy", "yan"}, {"lupa", "siapa namanya"}}
+            
+        };
+        System.out.print(a[0][1][0]);
+    }
+}
+
