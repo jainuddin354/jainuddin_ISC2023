@@ -1,0 +1,24 @@
+package ghhv;
+import java .util.Scanner;
+public class hhh {
+    public static void main (String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Masukkan modal awal: ");
+        double modalAwal = scanner.nextDouble();
+        System.out.print("Masukkan lama investasi :");
+        int lamaInvestasi = scanner.nextInt();
+        double totalInvestasi = modalAwal;
+        for (int tahun = 1; tahun <= lamaInvestasi; tahun++) {
+            double keuntunganTahunan = 0.05 * totalInvestasi;
+            totalInvestasi += keuntunganTahunan;
+
+            System.out.printf("Tahun %d - Keuntungan: %.2f - Total Investasi: %.2f\n", tahun, keuntunganTahunan, totalInvestasi);
+        }
+
+        scanner.close();
+    }
+}
+
+    
+
+
