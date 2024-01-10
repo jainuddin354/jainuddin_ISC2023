@@ -1,0 +1,14 @@
+package ISC;
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+         Queue<String> queue = new LinkedList<>();
+        queue.add("Elemen 1");
+        queue.add("Elemen 2");
+        queue.add("Elemen 3");
+        System.out.println("Isi awal Queue: " + queue);
+        String removedElement = queue.poll();
+        System.out.println("Elemen yang dihapus: " + removedElement);
+        System.out.println("Isi Queue setelah penghapusan: " + queue);
+    }
+}
