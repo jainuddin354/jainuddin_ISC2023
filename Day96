@@ -1,0 +1,18 @@
+package ISC;
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner jy = new Scanner (System.in);
+        System.out .print("Masuakkan nilai :");
+       int nilai = jy.nextInt();
+        if (nilai >= 90) {
+            System.out.println("Nilai A");
+        } else if (nilai >= 80) {
+            System.out.println("Nilai B");
+        } else if (nilai >= 70) {
+            System.out.println("Nilai C");
+        } else {
+            System.out.println("Nilai D");
+        }
+    }
+}
