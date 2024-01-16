@@ -1,0 +1,14 @@
+package Soal;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int p,l,kll;
+        System.out.print("Masukkan Panjang = ");
+        p = sc.nextInt();
+        System.out.print("Masukkan Lebar = ");
+        l = sc.nextInt();
+        kll = p * l;
+        System.out.println("Luas Keliling = "+kll);
+    }
+}
